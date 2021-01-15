@@ -10,7 +10,7 @@ jobs:
         python-version: 3.7
     - run: echo Badoi Iulia-Bianca
     - run: |
-        if [ "$(python main.py 1 2)" != "3" ];  then
+        if [ "$(python main.py 1 2)" != "3" ],  then
             exit -1
         fi
         if [ "$(python main.py 1 2)" = "3" ];  then
