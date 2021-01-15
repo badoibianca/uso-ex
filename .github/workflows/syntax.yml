@@ -10,12 +10,15 @@ jobs:
         python-version: 3.7
     - run: echo Badoi Iulia-Bianca
     - run: |
-        if [ "$(python main.py 1 2)" != "3" ],  then
-            exit -1
-        fi
-        if [ "$(python main.py 1 2)" = "3" ];  then
-            exit -1
-        fi
-        if [ "$(python main.py 4 5)" != "9" ];  then
-            exit -1
-        fi
+       if [ "$(python main.py 1 2)" != "3" ]
+            then
+                exit -1
+            fi
+       if [ "$(python main.py 1 2)" = "3" ]
+            then
+                exit -1
+            fi
+        if [ "$(python add.py 4 5)" != "9" ]
+            then
+                exit -1
+            fi
