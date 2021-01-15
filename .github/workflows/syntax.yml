@@ -9,9 +9,5 @@ jobs:
         with:
           python-version: 3.7
         - run: python main.py 1 2
-      - run: | if [ $("python add 1 2") != "3" ]
-          exit 1
-        fi
-      - run: echo Badoi Iulia-Bianca
-
-      - run: python3 main.py 3 4
+        - run: echo Badoi Iulia-Bianca
+        - run: python3 main.py 3 4
