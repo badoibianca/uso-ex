@@ -13,7 +13,7 @@ jobs:
         if [ "$(python main.py 1 2)" != "3" ];  then
             exit -1
         fi
-        if [ "$(python main.py 1 2)" == "3" ];  then
+        if [ "$(python main.py 1 2)" = "3" ];  then
             exit -1
         fi
         if [ "$(python main.py 4 5)" != "9" ];  then
