@@ -10,4 +10,5 @@ jobs:
         python-version: 3.7
     - run: echo Badoi Iulia-Bianca
     - run: |
-        if [ $("python add 1 2") != "3" ] echo 1 fi
+        if [ "$(python add 1 2) != "3" ]" echo -1, then
+          fi
