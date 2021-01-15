@@ -1,9 +1,9 @@
-name: syntaax
+name: syntax
 on: push
 jobs:
   linux:
     runs-on: ubuntu-latest
-    stepts:
+    steps:
       - uses: action/checkout@v2
       - uses: action/setup-python@v2
       with:
