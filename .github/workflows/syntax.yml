@@ -4,9 +4,9 @@ jobs:
   linux:
     runs-on: ubuntu-latest
     steps:
-      -uses: action/checkout@v2
-      -uses: action/setup-python@v2
-      with:
+      - uses: action/checkout@v2
+      - uses: action/setup-python@v2
+        with:
         python version: 3.7
-        -run: echo Badoi Iulia-Bianca
-        -run: python src/main.py
+        - run: echo Badoi Iulia-Bianca
+        - run: python src/main.py
