@@ -1,2 +1,6 @@
-if[ "$[./add 1 2]" != "3"];
-exit -1;
+a = int(input("primul nr: "))
+b = int(input("al doilea nr: "))
+
+sum = a + b
+
+print("suma:", sum)
