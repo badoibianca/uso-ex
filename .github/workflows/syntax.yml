@@ -9,4 +9,4 @@ jobs:
         with:
           python-version: 3.7
       - run: echo Badoi Iulia-Bianca
-      - run: python main.py
+      - run: python main.py 1 2
