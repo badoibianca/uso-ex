@@ -18,7 +18,3 @@ jobs:
             then
                 exit -1
             fi
-        if [ "$(python main.py 4 5)" = "9" ]
-             then
-                 exit -1
-             fi
